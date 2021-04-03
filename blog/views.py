@@ -4,7 +4,7 @@ from django.shortcuts import render
 from pymongo import MongoClient 
   
 
-client= MongoClient('mongodb+srv://aayushi:aayushi@cluster0.g1xd9.mongodb.net/test?retryWrites=true&w=majority') 
+client= MongoClient('mongo_address') 
 final=[]
 db1= client["TN_Restaurants"]
 collection1=db1["Restaurants"]
